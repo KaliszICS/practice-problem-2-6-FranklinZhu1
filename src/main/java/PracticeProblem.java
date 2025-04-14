@@ -57,7 +57,7 @@ public class PracticeProblem {
 				nums[index + 1] = nums[index--];
 				++arr[0]; // variable reassignment
 			}
-			if (index == i - 1) ++arr[1]; // if broken out of the while loop based on comparison SPECIFICALLY when the element is already sorted (edge case, fine)
+			// if (index == i - 1) ++arr[1]; // if broken out of the while loop based on comparison SPECIFICALLY when the element is already sorted (edge case, fine)
 			nums[index + 1] = key;
 			// ++arr[0]; // variable reassignment
 			// ^ this isn't included?????????
